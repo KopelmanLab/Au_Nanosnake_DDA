@@ -4,6 +4,6 @@ Welcome to the Kopelman laboratory folder for nanosnake DDA computations. Each f
 
 1.) Shape file geometry generation
 
-2.) DDSCAT output spectral interpolation 
+2.) DDSCAT output spectral interpolation (dda_analysis)
 
-3.) DDSCAT job submission via Linux utilizing multiprocessing (# of cores can be customized)
+3.) DDSCAT job submission via Linux utilizing multiprocessing, where the # of cores can be customized, effective radius is specified, etc. (dda-runner)
