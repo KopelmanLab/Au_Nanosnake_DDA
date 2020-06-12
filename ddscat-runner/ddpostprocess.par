@@ -1,0 +1,7 @@
+'{e_file}'            = name of file with E stored
+'VTRoutput'                  = prefix for name of VTR output files
+{e_e2}   = IVTR (set to 1 to create VTR output)
+1   = ILINE (set to 1 to evaluate E along a line)
+-0.02 0.0 0.0 0.02 0.0 0.0 601  = XA,YA,ZA, XB,YB,ZB (phys units), NAB
+0.0 -0.02 0.0 0.0 0.112 0.0 601  = XA,YA,ZA, XB,YB,ZB (phys units), NAB
+0.0 0.0 -0.02 0.0 0.0 0.02 601  = XA,YA,ZA, XB,YB,ZB (phys units), NAB
