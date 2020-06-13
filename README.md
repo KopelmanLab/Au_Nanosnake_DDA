@@ -4,9 +4,13 @@ Welcome to the Kopelman laboratory folder for nanosnake DDA computations and rel
 
 1.) Shape file geometry generation
 
+- Run `spheresolver1234x_1dpnm.py`
 - Further instructions are inside code comments
 
 2.) DDSCAT output spectral interpolation (dda_analysis)
+- Run as a series of jupyter notebooks
+- First examine `interpolator.ipynb` to interpolate DDA output to intermediate gap distnaces
+- Second, use `best_lc_finder.ipynb` to fit spectral data from experimental UV-Vis
 
 3.) DDSCAT job submission via Linux utilizing multiprocessing, where the # of cores can be customized, effective radius is specified, etc. (dda-runner)
 
